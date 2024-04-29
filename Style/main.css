@@ -1,0 +1,285 @@
+/* =============================================================================== */
+/* ========================= Home ============================================== */
+/* =============================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+
+.Home {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+
+.Home .caption {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+
+.caption p {
+    font-size: 25px;
+}
+
+.caption h1 {
+    font-weight: bold;
+    font-size: 55px;
+    margin-block: 30px;
+}
+
+.caption .btn {
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    margin: 20px 7px;
+}
+
+.caption .btn1 {
+    background-color: #8e7754;
+    border-width: 0;
+}
+
+.caption .btn2 {
+    background-color: transparent;
+    border: 2px solid wheat;
+}
+
+.circle {
+    width: 50px;
+    height: 80px;
+    border-radius: 40%;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+/* =============================================================================== */
+/* ========================= navBar ============================================== */
+/* =============================================================================== */
+.nav-logo {
+    width: 15%;
+    float: left;
+    padding: 10px;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.nav-link ul {
+    float: right;
+
+}
+
+.nav-link ul li {
+    list-style: none;
+    float: right;
+    padding: 20px;
+}
+
+.nav-link ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.clr {
+    clear: both;
+}
+
+/* =============================================================================== */
+/* ========================= About ============================================== */
+/* =============================================================================== */
+
+.About {
+    margin: 40px 40px;
+}
+
+.about-image {
+    width: 40%;
+    float: left;
+    margin-top: 50px;
+}
+
+.about-image img {
+    width: 100%;
+
+}
+
+.about-description {
+    width: 50%;
+    float: right;
+    margin: 20px 40px;
+}
+
+.about-description h2 {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.about-description p {
+    font-size: 25px;
+    margin-block: 20px;
+    color: #686868;
+}
+
+.about-description ul {
+    font-size: 20px;
+    color: #686868;
+}
+
+.about-description ul li {
+    margin-top: 20px;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.about-description ul li img {
+    margin-right: 5px;
+
+    width: 5%;
+    float: left;
+}
+
+/*  */
+.About2 {
+    margin: 50px 50px;
+}
+
+.about-image2 {
+
+    width: 40%;
+    float: right;
+}
+
+.about-image2 img {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.about-description2 {
+    width: 50%;
+    float: left;
+    margin: 50px 50px;
+}
+
+.about-description2 h2 {
+    font-weight: bold;
+    font-size: 35px;
+    margin: 30px 0;
+}
+
+.about-description2 p {
+    font-size: 25px;
+    margin-block: 20px;
+    color: #686868;
+}
+
+/* =============================================================================== */
+/* =========================Our-Baking============================================== */
+/* =============================================================================== */
+.Our-Baking .p-p, .Our-Baking h2 {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.Our-Baking .p-p {
+    color: #686868;
+}
+
+.our-Baking-image {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.our-Baking-image img {
+    width: 100%;
+    margin: 20px;
+}
+
+.our-Baking-image p {
+    color: #686868;
+}
+
+.Baking {
+    padding: 30px;
+}
+
+.Our-Baking .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* =============================================================================== */
+/* =========================blog============================================== */
+/* =============================================================================== */
+.about-description {
+    float: left;
+    width: 50%;
+    margin-right: 10px;
+
+}
+
+.blog-map {
+    float: left;
+    width: 30%;
+}
+
+.blog {
+    margin: 50px;
+}
+
+/* =============================================================================== */
+/* =========================Contact============================================== */
+/* =============================================================================== */
+.Contact {
+    margin-top: 50px;
+    background-color: #403d38;
+
+}
+
+.Contact-row {
+    margin: 10px 10px;
+    width: 22%;
+    float: left;
+    color: white;
+
+}
+
+.Contact-row h5 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.Contact-row ul li {
+    margin: 10px;
+}
+
+.about {
+    background-color: #353330;
+    text-align: center;
+    padding: 50px;
+}
+
+.about-cap p {
+    margin: 50px;
+    color: white;
+}
